@@ -1,0 +1,219 @@
+body {
+    background-color: lightskyblue;
+        color: #111;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+    
+    }
+    .UAEH{
+        margin: 30px;
+        float: left;
+        width: 15%;
+    }
+    
+    .ESTi{
+        margin: 30px;
+        float: right;
+        width: 20%;
+    }
+    .Imagens{
+        display: block;
+        margin: 0px auto;
+        float: center;
+        width: 50%;
+    }
+    .pdfview {
+        display: block;
+        margin: 0px auto;
+        float: center;
+        width: 80%;
+        /* Tamaño */
+        height: 90vh;
+        /* Mejorar aspecto */
+        border-radius: 20px;
+        box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .Imags{
+        display: block;
+        margin: 0px auto;
+        float: center;
+        width: 80%;
+    }
+    .Security{
+        display: block;
+        margin: 0px auto;
+        float: center;
+        width: 10%;
+    }
+    .section-portada{
+        margin: 50px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 25px;
+        line-height: 24px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    p{
+        text-align: justify;
+        font-family: Arial;
+        font-size: 16px;
+    }
+    img{
+        display: block;
+        margin: 0px auto;
+       
+    }
+    #Inicio {
+        background: rgb(176, 225, 255);
+        border: none;
+        padding: 10px;
+        margin: 1% auto;
+        width: 90%;
+    }
+.container {
+    margin: auto;
+    max-width: 800px;
+    padding:  5px
+
+}
+
+.main-nav {
+
+    padding-top: 8px;
+    padding-bottom: 15px;
+    background-color: #FFF;
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+    z-index: 10;
+    position: relative
+}
+
+.group.top-nav {
+    margin-bottom: -20px
+}
+
+.group.top-nav nav a {
+    text-decoration: none
+}
+
+.group.top-nav nav a:hover {
+    color:#ff4141;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+.logo,
+.top-nav a.logo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    color: #000;
+    letter-spacing: -2px
+}
+
+.navigation-toggle .logo {
+    font-size: 20px;
+    text-transform: capitalize
+}
+
+.top-nav .item-nav li.active a {
+    color: #ff4141
+}
+
+.top-nav .item-nav li a {
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #030303
+}
+
+img.img-intro {
+    border-radius: 100px;
+    width: 47px;
+    background-color: #ff4141;
+    border: 1px solid #ff4141;
+    -moz-box-shadow: inset .5px .9px 5px rgba(0, 0, 0, .05);
+    -webkit-box-shadow: inset .5px .9px 5px rgba(0, 0, 0, .05);
+    box-shadow: inset .5px .9px 5px rgba(0, 0, 0, .05);
+    -webkit-animation: smooth-entry-btn 1s;
+    -moz-animation: smooth-entry-btn 1s;
+    animation: smooth-entry-btn 1s
+}
+
+.content {
+    padding-top: 75px
+}
+
+.post {
+    margin-bottom: 80px
+}
+
+.content .post a {
+    text-decoration: none
+}
+
+.content .post h1 {
+    color: #000;
+    font-family: Lato, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    position: relative
+}
+
+.content .post a h1:hover {
+    color: #ff4141;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+.content .post p {
+    color: #0a0a0a;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400
+}
+
+.content .post img {
+    margin-bottom: 20px
+}
+
+
+.in-content {
+    margin-top: 55px
+}
+
+
+
+@media only screen and (max-width:767px) {
+    .intro {
+        padding-top: 50px
+    }
+
+    .logo-w {
+        display: none
+    }
+
+    .main-nav {
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+
+    .top-nav .item-nav li {
+        padding-bottom: 10px
+    }
+
+}

@@ -1,0 +1,63 @@
+
+ body {
+        background-color: rgb(162, 217, 252);
+            color: #111;
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            margin-bottom: 50px
+ }
+
+ .main-nav {
+
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color:  #FFF;
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+    z-index: 10;
+    position: relative
+}
+ 
+    .UAEH{
+        margin: 1px;
+        float: left;
+        width: 15%;
+    }
+    
+    .ESTi{
+        margin: 1px;
+        float: right;
+        width: 20%;
+    }
+    
+    .section-portada{
+        margin: 50px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 25px;
+        line-height: 24px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    p{
+        text-align: justify;
+        font-family: Arial;
+        font-size: 16px;
+    }
+    img{
+        display: block;
+        margin: 0px auto;
+       
+    }
+.container {
+    margin: auto;
+    max-width: 662px;
+    padding: 0 20px;
+}
